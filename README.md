@@ -7,11 +7,10 @@ Acabas de completar los fundamentos de Python: variables, tipos de datos, string
 **Tu misión** (si decides aceptarla):  
 Eres ingeniero de control de la misión *Perseverance 2*. Tienes un archivo de texto (`telemetria.txt`) que contiene lecturas de sensores del rover en Marte. Cada línea tiene este formato:
 
-timestamp, sensor, valor, unidad
-Ejemplo:
-2025-04-26T12:00:00, temperatura, 22.5, C
-2025-04-26T12:01:00, presion, 101.3, hPa
-2025-04-26T12:02:00, temperatura, -999, C
+- timestamp, sensor, valor, unidad
+- 2025-04-26T12:00:00, temperatura, 22.5, C
+- 2025-04-26T12:01:00, presion, 101.3, hPa
+- 2025-04-26T12:02:00, temperatura, -999, C
 
 
 Debes **investigar por tu cuenta** cómo leer ese archivo, procesar sus líneas, limpiar datos erróneos, extraer información útil y generar un reporte.  
