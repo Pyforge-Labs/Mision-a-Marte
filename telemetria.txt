@@ -1,0 +1,8 @@
+timestamp, sensor, valor, unidad
+2025-04-26 12:00:00, temperatura, 22.5, C
+2025-04-26 12:01:00, presion, 101.3, hPa
+2025-04-26 12:02:00, temperatura, -999, C
+2025-04-26 12:03:00, humedad, 45.2, %
+2025-04-26 12:04:00, temperatura, 120, C
+2025-04-26 12:05:00, presion, --, hPa
+2025-04-26 12:06:00, temperatura, -10.5, C
