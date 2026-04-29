@@ -21,10 +21,11 @@ for fila in filas:
         if len(fila) > 2:
             fila[2] = None
 
-print("\n=== RESULTADOS ===")
-print(f"Lecturas válidas  : {passElements}")
-print(f"Lecturas inválidas: {passNone}")
+with open("resultado.txt", "w", encoding="utf-8") as out:
+    out.write("=== RESULTADOS ===\n")
+    out.write(f"Lecturas válidas  : {passElements}\n")
+    out.write(f"Lecturas inválidas: {passNone}\n\n")
 
-print("\n=== DATOS PROCESADOS ===")
-for fila in filas:
-    print(fila)
+    out.write("=== DATOS PROCESADOS ===\n")
+    for fila in filas:
+        out.write(",".join([str(x) for x in fila]) + "\n")

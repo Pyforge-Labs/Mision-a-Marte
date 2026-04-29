@@ -1,0 +1,13 @@
+=== RESULTADOS ===
+Lecturas válidas  : 3
+Lecturas inválidas: 5
+
+=== DATOS PROCESADOS ===
+timestamp,sensor,None,unidad
+2025-04-26 12:00:00,temperatura,22.5,C
+2025-04-26 12:01:00,presion,None,hPa
+2025-04-26 12:02:00,temperatura,None,C
+2025-04-26 12:03:00,humedad,45.2,%
+2025-04-26 12:04:00,temperatura,None,C
+2025-04-26 12:05:00,presion,None,hPa
+2025-04-26 12:06:00,temperatura,-10.5,C
